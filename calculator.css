@@ -1,0 +1,134 @@
+/* calculator.css - external style sheet for index.html */
+
+
+body {
+	background: black;
+}
+
+
+#calcoutput {
+	word-wrap: break-word;
+}
+
+
+#calcscreen {
+	height: 50px;
+	width: 300px;
+	background: powderblue;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Courier;
+	font-size:140%;
+	border-radius: 8px;
+}
+
+
+#outside {
+	height: 500px;
+	width: 400px;
+	background: mediumblue;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:25px;
+}
+
+
+
+
+h1 {
+	font-family: Courier;
+	font-size: 54px;
+	margin-top: 7px;
+	margin-bottom: 18px;
+	text-align: center;
+}
+
+
+#keypad {
+	height: 300px;
+	width:300px;
+	background: lightsteelblue;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+
+.inputbutton {
+	
+	display: inline-block;
+
+	background: darkgrey;
+
+	border-radius: 12px;
+
+	padding-right: 18px;
+	padding-left: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 2px;
+	margin-bottom: 10px;
+
+	user-select:none;
+
+	width: 51.5px;
+
+	font-family: Courier;
+	font-size:120%;
+	font-weight: bold;
+}
+
+
+.button:active {	
+	box-shadow:0 5px #666;
+	transform: translateY(4px);
+
+}
+
+
+.biggerinputbutton{
+	display: inline-block;
+
+	background: lavender;
+
+	border-radius: 12px;
+
+
+	padding-left: 12px;
+	padding-bottom: 10px;
+	padding-top: 13px;
+	padding-right: 13px;
+
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	user-select:none;
+	font-family: Courier;
+	font-size:93%;
+	font-weight: bold;
+}
+
+
+#closedbracket{
+	margin-left:0px;
+	margin-right:4px;
+
+}
+
+
+#openbracket {
+	margin-right:2px;
+	margin-left:6px;
+	
+}
+
+
+#backspace {
+	margin-left:5px;
+}
+
+

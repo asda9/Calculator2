@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head> <title> Calculator </title> 
+		<link rel = "stylesheet" type = "text/css" href = "calculator.css" />
+	</head>
+		<body>
+		<br/>
+		<div id = "outside">
+			<br/>
+			<h1 class="text"> Calculator </h1>
+			<div id="calcscreen">
+				<span id="calcoutput"> </span>
+			</div>
+			
+			<br/>
+
+			<div id="keypad">
+			<button id="clear" onclick="inputclick(id)" class="biggerinputbutton"> CLEAR </button>
+			<button id="backspace" onclick="inputclick(id)" class="biggerinputbutton"> BACK </button>
+			<button id="openbracket" onclick="inputclick(id)" class="inputbutton"> ( </button>
+			<button id="closebracket" onclick="inputclick(id)" class="inputbutton"> ) </button>
+			</br>
+
+			<button id="7" onclick="inputclick(id)" class="inputbutton"> 7 </button>
+			<button id="8" onclick="inputclick(id)" class="inputbutton"> 8 </button>
+			<button id="9" onclick="inputclick(id)" class="inputbutton"> 9 </button>
+			<button id="/" onclick="inputclick(id)" class="inputbutton"> / </button>
+			</br>
+	
+			<button id="4" onclick="inputclick(id)" class="inputbutton"> 4 </button>
+			<button id="5" onclick="inputclick(id)" class="inputbutton"> 5 </button>	
+			<button id="6" onclick="inputclick(id)" class="inputbutton"> 6 </button>
+			<button id="*" onclick="inputclick(id)" class="inputbutton"> * </button>
+			</br>	
+				<button id="1" onclick="inputclick(id)" class="inputbutton"> 1 </button>
+			<button id="2" onclick="inputclick(id)" class="inputbutton"> 2 </button>	
+			<button id="3" onclick="inputclick(id)" class="inputbutton"> 3 </button>
+			<button id="-" onclick="inputclick(id)" class="inputbutton"> - </button>
+			</br>
+	
+			<button id="0" onclick="inputclick(id)" class="inputbutton"> 0 </button>
+			<button id="." onclick="inputclick(id)" class="inputbutton"> . </button>
+			<button id="equals" onclick="inputclick(id)" class="inputbutton"> = </button>
+			<button id="+" onclick="inputclick(id)" class="inputbutton"> + </button>
+			</br>
+
+			</div>
+		</div>
+
+	<script type = "text/javascript" src = "calculator.js"> </script>
+
+	</body>
+
+</html>
